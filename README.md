@@ -1,23 +1,12 @@
 # iOS 기술 면접을 준비하는 레포
 > [👨🏻‍💻👩🏻‍💻iOS 면접에 나올 질문들 총 정리](https://github.com/JeaSungLEE/iOSInterviewquestions)를 참고하여 공부하는 Repository입니다.
-
+> 면접시기가 wwdc이후 (7월~11월)이라면 해당년도 wwdc세션들을 봐! [Apple All Videos](https://developer.apple.com/videos/all-videos/)
 
 # Required
-아래 내용들은 최대한 많이 공부해놓는것이 좋습니다 📝
-
-+ 면접시기가 wwdc이후 (7월~11월)이라면 해당년도 wwdc세션들을 봐 두시면 매우매우매우 좋습니다.
-
-[Apple All Videos](https://developer.apple.com/videos/all-videos/)
-
 ## iOS
 
-<details>
-<summary> 펼쳐보기 </summary>
-<div markdown="1">       
-   
-   
 |Question|원석|수정|
-|:----------|:-----|:-----:|
+|:----------|:-----:|:-----:|
 |Bounds 와 Frame 의 차이점을 설명하시오.|-|-|
 |실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.|-|-|
 |앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?|-|-|
@@ -49,18 +38,12 @@
 |App thinning에 대해서 설명하시오.|-|-|
 |Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.|-|-|
 
-</div>
-</details>
- 
-## Autolayout
 
-<details>
-<summary> 펼쳐보기 </summary>
-<div markdown="1">       
-  
-  
+<br>
+
+## Autolayout
 |Question|원석|수정|
-|:----------|:-----|:-----:|
+|:----------|:-----:|:-----:|
 |오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)|-|-|
 |hugging, resistance에 대해서 설명하시오.|-|-|
 |Intrinsic Size에 대해서 설명하시오.|-|-|
@@ -69,19 +52,11 @@
 |Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.|-|-|
 
 
-</div>
-</details>
-
+<br>
 
 ## Swift
-
-<details>
-<summary> 펼쳐보기 </summary>
-<div markdown="1">      
-  
-   
 |Question|원석|수정|
-|:----------|:-----|:-----:|
+|:----------|:-----:|:-----:|
 |Optional 이란 무엇인지 설명하시오.|-|-|
 |Fast Enumeration 이란 무엇인지 설명하시오. |-|-|
 |Struct 가 무엇이고 어떻게 사용하는지 설명하시오.|-|-|
@@ -102,19 +77,11 @@
 |defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.|-|-|
 
 
-</div>
-</details>
-
+<br>
 
 ## ARC
-
-<details>
-<summary> 펼쳐보기 </summary>
-<div markdown="1">      
-  
-  
 |Question|원석|수정|
-|:----------|:-----|:-----:|
+|:----------|:-----:|:-----:|
 |ARC란 무엇인지 설명하시오.|-|-|
 |Retain Count 방식에 대해 설명하시오.|-|-|
 |Strong 과 Weak 참조 방식에 대해 설명하시오.|-|-|
@@ -126,23 +93,12 @@
 |Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. |-|-|
 
 
-</div>
-</details>
-
+<br>
 
 ## Functional Programming
-
-<details>
-<summary> 펼쳐보기 </summary>
-<div markdown="1">   
-  
-  
 |Question|원석|수정|
-|:----------|:-----|:-----:|
+|:----------|:-----:|:-----:|
 |함수형 프로그래밍이 무엇인지 설명하시오.|-|-|
 |고차 함수가 무엇인지 설명하시오.|-|-|
 |Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.|-|-|
-
-</div>
-</details>
 
