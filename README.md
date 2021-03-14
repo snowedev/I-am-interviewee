@@ -11,6 +11,11 @@
 
 ## iOS
 
+<details>
+<summary> 펼쳐보기 </summary>
+<div markdown="1">       
+   
+   
 |Question|원석|수정|
 |:----------|:-----|:-----:|
 |Bounds 와 Frame 의 차이점을 설명하시오.|-|-|
@@ -44,7 +49,16 @@
 |App thinning에 대해서 설명하시오.|-|-|
 |Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.|-|-|
 
+</div>
+</details>
+ 
 ## Autolayout
+
+<details>
+<summary> 펼쳐보기 </summary>
+<div markdown="1">       
+  
+  
 |Question|원석|수정|
 |:----------|:-----|:-----:|
 |오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)|-|-|
@@ -55,7 +69,17 @@
 |Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.|-|-|
 
 
+</div>
+</details>
+
+
 ## Swift
+
+<details>
+<summary> 펼쳐보기 </summary>
+<div markdown="1">      
+  
+   
 |Question|원석|수정|
 |:----------|:-----|:-----:|
 |Optional 이란 무엇인지 설명하시오.|-|-|
@@ -78,7 +102,17 @@
 |defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.|-|-|
 
 
+</div>
+</details>
+
+
 ## ARC
+
+<details>
+<summary> 펼쳐보기 </summary>
+<div markdown="1">      
+  
+  
 |Question|원석|수정|
 |:----------|:-----|:-----:|
 |ARC란 무엇인지 설명하시오.|-|-|
@@ -92,10 +126,23 @@
 |Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. |-|-|
 
 
+</div>
+</details>
+
+
 ## Functional Programming
+
+<details>
+<summary> 펼쳐보기 </summary>
+<div markdown="1">   
+  
+  
 |Question|원석|수정|
 |:----------|:-----|:-----:|
 |함수형 프로그래밍이 무엇인지 설명하시오.|-|-|
 |고차 함수가 무엇인지 설명하시오.|-|-|
 |Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.|-|-|
+
+</div>
+</details>
 
