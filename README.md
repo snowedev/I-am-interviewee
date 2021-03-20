@@ -29,16 +29,16 @@
 - 브랜치 만듦
 
 ```bash
-git branch 기능(or 뷰)이름
+git branch 참여자 이름
 ```
 
 - 원격 저장소에 로컬 브랜치 push
 
 ```bash
-git push --set-upstream origin 브랜치이름(뷰이름)
+git push --set-upstream origin 브랜치이름(참여자 이름)
 ```
 ```bash
-git push -u origin 브랜치이름(뷰이름)
+git push -u origin 브랜치이름(참여자 이름)
 ```
 
 
@@ -48,20 +48,20 @@ git push -u origin 브랜치이름(뷰이름)
 - 브랜치 전환
 
 ```bash
-git checkout 뷰이름
+git checkout 본인브랜치
 ```
 
-- 코드 변경 (현재 **참여자 이름** 브랜치)
+- 코드 변경 (현재 **참여자** 브랜치)
 
 ```bash
 git add .
-git commit -m "커밋 메세지" origin 뷰이름
+git commit -m "커밋 메세지" origin 본인브랜치
 ```
 
-- 푸시 (현재 **참여자 이름** 브랜치)
+- 푸시 (현재 **참여자** 브랜치)
 
 ```bash
-git push origin 뷰이름 브랜치
+git push origin 본인브랜치
 ```
 
 
@@ -82,4 +82,16 @@ git checkout main
 
 ```bash
 git merge 참여자브랜치
+```
+
+- 충돌이 안났다면 push (현재 **main** 브랜치)
+
+```bash
+git push
+```
+
+- 다시 본인의 답변 작성을 위해 checkout
+
+```bash
+git checkout 본인브랜치
 ```
