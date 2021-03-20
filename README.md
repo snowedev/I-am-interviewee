@@ -7,8 +7,8 @@
 ## 참여자
 | Interviewee | Answer | Github |
 |:----------|:-----:|:-----:|
-|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863006-285cb580-899c-11eb-8977-3c251851fdca.png> | [제 답변은 다음과 같습니다](./원석)| [원석's Github](www.github.com/snowedev) |
-|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863005-2692f200-899c-11eb-893d-bf7a4d30024b.jpeg> | [제 답변은 다음과 같습니다](./수정)| [수정's Github](www.github.com/suzumsz) |
+|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863006-285cb580-899c-11eb-8977-3c251851fdca.png> | [제 답변은 다음과 같습니다](./원석)| [원석's Github](https://github.com/snowedev) |
+|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863005-2692f200-899c-11eb-893d-bf7a4d30024b.jpeg> | [제 답변은 다음과 같습니다](./수정)| [수정's Github](https://github.com/suzumsz) |
 
 
 <br>
