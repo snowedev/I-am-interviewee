@@ -40,3 +40,7 @@
 * Observer가 취하는 행동은 #selector에 지정해준 changeSecondColor,changeThirdColor입니다.
     * changeSecondColor는 박스의 색을 orange로 변경해줍니다.
     * changeThirdColor는 박스의 색을 green으로 변경해줍니다.
+
+
+### Result
+<img width=30% src=https://user-images.githubusercontent.com/42789819/111866787-4c77c100-89b3-11eb-8af4-ddc50f6f64df.gif>
