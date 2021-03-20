@@ -76,7 +76,6 @@ git checkout main
 
 > main전환 후, pull받을게 있다면 pull받기
 > - main pull: git pull or git pull origin main
-> - main push: git push or git push origin main
 
 - 머지 (현재 **main** 브랜치)
 
