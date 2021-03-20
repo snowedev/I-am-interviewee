@@ -4,7 +4,7 @@
 
 
 ## 참여자
-| - | 참여자 | Answer | Github |
-| :---: |:----------|:-----:|:-----:|
-|<img width=20% src=https://user-images.githubusercontent.com/42789819/111863006-285cb580-899c-11eb-8977-3c251851fdca.png>| 이원석 | [이동](./원석)| [원석's Github](www.github.com/snowedev) |
-|<img width=20% src=https://user-images.githubusercontent.com/42789819/111863005-2692f200-899c-11eb-893d-bf7a4d30024b.jpeg>| 김수정 | [이동](./수정)| [원석's Github](www.github.com/suzumsz) |
+| Interviewee | Answer | Github |
+|:----------|:-----:|:-----:|
+|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863006-285cb580-899c-11eb-8977-3c251851fdca.png> | [이동](./원석)| [원석's Github](www.github.com/snowedev) |
+|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863005-2692f200-899c-11eb-893d-bf7a4d30024b.jpeg> | [이동](./수정)| [수정's Github](www.github.com/suzumsz) |
