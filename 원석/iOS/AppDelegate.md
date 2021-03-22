@@ -19,7 +19,7 @@
     2. 앱의 scene을 환경설정(Configuration)하는 것
     3. 앱 밖에서 발생한 알림(배터리 부족, 다운로드 완료 등)에 대응하는 것
     4. 특정한 scenes, views, view controllers에 한정되지 않고 앱 자체를 타겟하는 이벤트에 대응하는 것
-    5. 애플 푸쉬 알림 서브스와 같이 실행시 요구되는 모든 서비스를 등록하는것
+    5. 애플 푸쉬 알림 서비스와 같이 실행시 요구되는 모든 서비스를 등록하는것
 
 
 <br>
@@ -55,7 +55,7 @@ func application (_ : didDiscardSceneSessions :)
 
 
 <details>
-<summary> "SceneDelegate의 메서드들" </summary>
+<summary> "SceneDelegate의 메서드들" - Real Answer</summary>
 <div markdown="1">   
 
 
