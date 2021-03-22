@@ -19,9 +19,11 @@ iOS12까지 AppDelegate가 하던 일은 총 두가지였습니다.
 * 앱이 Launch되고, Terminate됐는지 등을 알 수 있게 해주는 **Process LifeCycle**과
 * UI의 State를 알 수 있게 해주는 **UI LifeCycle**  
 
-하지만 iOS13이 나옴에 따라 하나의 window가 하나의 UI를 갖던 기존의 방식은 하나의 window가 여러 UI를 가질 수 있게 변화하었습니다.
+하지만 iOS13이 나옴에 따라 하나의 window가 하나의 UI를 갖던 기존의 방식은 하나의 window가 여러 UI를 가질 수 있게 변화하였습니다.
 
 변화에 대응하기 위해 SceneDelegate가 등장했는데, SceneDelegate는 AppDelegate의 역할 중 UI의 상태를 알 수 있는 UILifeCycle에 대한 부분을 수행합니다.
+
+구체적으로, SceneDelegate.swift파일은 UIWindowSceneDelegate 프로토콜을 구현하여, 현재 세션과 연결되는 새로운 화면 객체, 백그라운드와 포그라운드 간의 화면전환, 또는 앱에서 연결이 끊긴 화면과 같은 이벤트를 처리하는 메서드를 포함합니다.  
 
 
 <br>
