@@ -10,7 +10,9 @@
 ## 사전지식
 
 * [SceneDelegate란?](./SceneDelegate.md)
-* iOS13부터 AppDelegate가 하는 일?  
+* **iOS13부터 AppDelegate가 하는 일?**  
+
+
     이전에는 앱이 foreground에 들어가거나 background로 이동할 때 앱의 상태를 업데이트하는 등의 앱의 주요 생명 주기 이벤트를 관리했었지만 SceneDelegate로 위임되면서 현재 하는 일은 이하 5가지이다.
 
     1. 앱의 가장 중요한 데이터 구조를 초기화하는 것
@@ -74,13 +76,7 @@ func sceneDidDisconnect(_ scene: UIScene)
 ```
 * iOS 에서는 리소스를 확보하기위해 앱의 Scene이 백그라운드로 전환시마다 Scene를 완전 폐기할지 결정할 수 있다. 이것이 앱이 종료되거나 실행되지 않음을 의미하는것은 아니다. Scene만 Session에서 연결해제되고 활성화 되지 않는것이다.  
     * iOS에선 사용자가 특정 Scene을 포그라운드로 전환시 세션에 다시 연결하도록 결정 할 수 있다.
-    * 이 메서드는 사용하지 않는 리소스를 삭제하는데도 사용할 수 있다. 
-
-
-```swift
-func sceneDidBecomeActive(_ scene: UIScene)
-```
-* WillEnterForeground 메서드 다음에 호출된다. 장면이 설정되고 표시할 준비가 되었음을 알려준다.
+    * 이 메서드는 사용하지 않는 리소스를 삭제하는데도 사용할 수 있다.
 
 
 ```swift
@@ -96,10 +92,18 @@ func sceneWillEnterForeground(_ scene: UIScene)
 
 
 ```swift
+func sceneDidBecomeActive(_ scene: UIScene)
+```
+* sceneWillEnterForeground 메서드 다음에 호출된다. 
+* 장면이 설정되고 표시할 준비가 되었음을 알려준다.
+
+
+```swift
 func sceneDidEnterBackground(_ scene: UIScene)
 ```
-* 마찬가지로 백그라운드에서 포그라운드로 전환시 실행된다.
-* sceneWillEnterForeground 이후에 실행됨.
+* sceneWillEnterForeground 이후에 실행된다.
+* 백그라운드에서 포그라운드로 전환 완료시 실행된다.
+
 
 
 </div>
