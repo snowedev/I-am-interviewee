@@ -61,7 +61,7 @@
 ## Swift
 |Question|Answer|
 |:----------|:-----:|
-|Optional 이란 무엇인지 설명하시오.|-|
+|Optional 이란 무엇인지 설명하시오.|🖐🏻|
 |Fast Enumeration 이란 무엇인지 설명하시오. |-|
 |Struct 가 무엇이고 어떻게 사용하는지 설명하시오.|-|
 |instance 메서드와 class 메서드의 차이점을 설명하시오.|-|
