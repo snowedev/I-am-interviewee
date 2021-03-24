@@ -1,4 +1,4 @@
-## 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?
+# 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?
 
 
 <br>
@@ -44,4 +44,5 @@
 * background에 있을 때에는 가능한 적은 메모리공간을 사용해야하며(시스템 리소스 해제, 메모리에서 해제 후 데이터를 디스크에 작성) 우선순위에 의해 foreground task보다 더 낮은 자원을 할당받습니다.
 
 
-
+<br>
+<br>

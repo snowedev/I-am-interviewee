@@ -1,4 +1,4 @@
-## 상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.
+# 상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.
 > SceneDelegate가 등장함에 따라 SceneDelegate메소드도 함께 설명
 
 
@@ -32,6 +32,7 @@
 <summary> "AppDelegate의 메서드들" </summary>
 <div markdown="1">       
 
+<br>
 
 ```swift
 func application (_ : didFinishLaunchingWithOptions :)-> Bool
@@ -40,11 +41,16 @@ func application (_ : didFinishLaunchingWithOptions :)-> Bool
 * iOS13 이전에는 이 메서드를 통해 UIWindow 개체를 구성하고 ViewController인스턴스를 할당했지만,iOS13 부터 애플리케이션에 장면이 있는 경우 AppDelegate는 더이상 이를 처리할 책임이 없고 SceneDelegate로 이동된다.
 
 
+<br>
+
 ```swift
 func application (_ : configurationForConnecting : options :)-> UISceneConfiguration
 ```
 * 새 장면이나 새창이 필요할 때마다 호출된다.
 * 이 메서드는 앱 시작시 호출되지 않고 새 장면 또는 새 창을 가져야 하는 경우에만 호출된다.
+
+
+<br>
 
 ```swift
 func application (_ : didDiscardSceneSessions :)
@@ -56,6 +62,8 @@ func application (_ : didDiscardSceneSessions :)
 </details>
 
 
+<br>
+
 <details>
 <summary> "SceneDelegate의 메서드들" - Real Answer</summary>
 <div markdown="1">   
@@ -63,6 +71,8 @@ func application (_ : didDiscardSceneSessions :)
 
 > AppDelegate의 UIWindow와 관련된 것은 이제 SceneDelegate의 UIScene입니다.
 
+
+<br>
 
 ```swift
 func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions)
@@ -73,6 +83,8 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 * 새로운 화면 객체가 앱에 추가 될 때마다 호출된다.
 
 
+<br>
+
 ```swift
 func sceneDidDisconnect(_ scene: UIScene)
 ```
@@ -81,11 +93,15 @@ func sceneDidDisconnect(_ scene: UIScene)
     * 이 메서드는 사용하지 않는 리소스를 삭제하는데도 사용할 수 있다.
 
 
+<br>
+
 ```swift
 func sceneWillResignActive(_ scene: UIScene)
 ```
 * 앱이 백그라운드로 전환시 실행된다.
 
+
+<br>
 
 ```swift
 func sceneWillEnterForeground(_ scene: UIScene)
@@ -93,12 +109,16 @@ func sceneWillEnterForeground(_ scene: UIScene)
 * 백그라운드에서 포그라운드로 전환시 실행된다.
 
 
+<br>
+
 ```swift
 func sceneDidBecomeActive(_ scene: UIScene)
 ```
 * sceneWillEnterForeground 메서드 다음에 호출된다. 
 * 장면이 설정되고 표시할 준비가 되었음을 알려준다.
 
+
+<br>
 
 ```swift
 func sceneDidEnterBackground(_ scene: UIScene)
@@ -110,3 +130,7 @@ func sceneDidEnterBackground(_ scene: UIScene)
 
 </div>
 </details>
+
+
+<br>
+<br>
