@@ -3,7 +3,6 @@
 
 
 <br>
-<br>
 
 ## 참고하면 좋은 블로그
 * [iOS13에서-분할된-AppDelegate와-추가된SceneDelegate이해하기](https://huniroom.tistory.com/entry/)

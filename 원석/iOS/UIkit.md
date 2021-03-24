@@ -2,10 +2,9 @@
 
 
 <br>
-<br>
 
 ### 참고하면 좋은 사이트
-[UIKit](https://developer.apple.com/documentation/uikit)
+* [UIKit](https://developer.apple.com/documentation/uikit)
 
 
 ### 사전지식

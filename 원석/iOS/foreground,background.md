@@ -2,7 +2,6 @@
 
 
 <br>
-<br>
 
 ## 참고하면 좋은 블로그
 * [App States(앱의 상태)란 [엠아이노의 iOS]](https://minosaekki.tistory.com/16)
