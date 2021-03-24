@@ -1,6 +1,9 @@
-# 상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.
+## 상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.
 > SceneDelegate가 등장함에 따라 SceneDelegate메소드도 함께 설명
 
+
+<br>
+<br>
 
 ## 참고하면 좋은 블로그
 * [iOS13에서-분할된-AppDelegate와-추가된SceneDelegate이해하기](https://huniroom.tistory.com/entry/)
