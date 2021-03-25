@@ -13,14 +13,14 @@
 |:----------|:-----:|
 |Bounds 와 Frame 의 차이점을 설명하시오.|[✋🏽](./iOS/frame,bounds.md)|
 |실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.|[✋🏽](./iOS/the-things-only-simulator.md)|
-|앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?|-|
-|상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.|-|
-|scene delegate에 대해 설명하시오.|-|
-|앱이 In-Active 상태가 되는 시나리오를 설명하시오.|-|
+|앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?|[✋🏽](./iOS/foreground,background.md)|
+|상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.|[✋🏽](./iOS/AppDelegate.md)|
+|Scene delegate에 대해 설명하시오.|[✋🏽](./iOS/SceneDelegate.md)|
+|앱이 In-Active 상태가 되는 시나리오를 설명하시오.|[✋🏽](./iOS/Progress_In-Active.md)|
 |NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.|-|
 |GCD API 동작 방식과 필요성에 대해 설명하시오.|-|
 |자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.|-|
-|iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?|-|
+|iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?|[✋🏽](./iOS/UIkit.md)|
 |Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.|-|
 |Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.|-|
 |NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.|[✋🏽](./iOS/NotificationCenter.md)|
