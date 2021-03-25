@@ -23,10 +23,28 @@
     4. 특정한 scenes, views, view controllers에 한정되지 않고 앱 자체를 타겟하는 이벤트에 대응하는 것(앱 시작, 종료)
     5. 애플 푸쉬 알림 서비스와 같이 실행시 요구되는 모든 서비스를 등록하는것
 
+* 정리하면, 앱 실행 및 종료와 관련된 Process Life Cycle은 AppDelegate에서, 앱이 Foreground와 Background 상태에 있을 때 상태 전환과 관련된 UI Life Cycle은 SceneDelegate에서 관리한다.    
+    > 만약 iOS12 이하 버전에 대응하기 위해 SceneDelegate를 사용하지 않도록 설정하면 예전처럼 AppDelegate가 모든 Life Cycle에 대한 관리 책임을 갖지만, 그렇지 않으면 UI Life Cycle은 SceneDelegate를 통해 관리해야 한다.
+
 
 <br>
 
 ## Answer
+
+여러 UI 인스턴스 존재 가능 (App Delegate가 Session을 관리하므로)      
+
+
+<span style="color:skyblue">sky blue</span>: App Delegate  
+<span style="color:green">green</span>: Scene Delegate  
+
+
+**[call stack]**  
+
+
+앱 클릭 → <span style="color:skyblue">didFinishLaunchingWithOptions</span>→<span style="color:skyblue">configurationForSession</span>→<span style="color:green">willConnectToSession</span>(아직 화면에는 앱이 안뜬 상태)→ <span style="color:green">scene(_:willConnectTo)에서, window = UIWindow(windowScene: scene as! UIWindowScene)</span>(화면에 앱이 등장)→ <span style="color:green">willResignActive, didEnterBackground</span> → <span style="color:green">didDisconnect</span>(앱 화면을 명시적으로 종료할 시 ) → <span style="color:skyblue">didDiscardSceneSceneSessions</span> : scene이 didDisconnect됐을 경우(유저의 포커스에서 벗어난 후 다시 포커스를 받은 경우 데이터를 유지 하기 위해, 이곳에서 복구관련 정보를 획득 == 한 앱을 여러 화면 띄울 수 있음)
+
+
+<br>
 
 <details>
 <summary> "AppDelegate의 메서드들" </summary>
@@ -42,6 +60,7 @@ func application (_ : didFinishLaunchingWithOptions :)-> Bool
 
 
 <br>
+
 
 ```swift
 func application (_ : configurationForConnecting : options :)-> UISceneConfiguration
