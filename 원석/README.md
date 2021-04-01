@@ -17,9 +17,9 @@
 |상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.|[✋🏽](./iOS/AppDelegate.md)|
 |Scene delegate에 대해 설명하시오.|[✋🏽](./iOS/SceneDelegate.md)|
 |앱이 In-Active 상태가 되는 시나리오를 설명하시오.|[✋🏽](./iOS/Progress_In-Active.md)|
-|NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.|-|
+|NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.|[✋🏽](./iOS/NSOperation,GCD.md)|
 |GCD API 동작 방식과 필요성에 대해 설명하시오.|-|
-|자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.|-|
+|자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.|[✋🏽](./iOS/xib.md)|
 |iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?|[✋🏽](./iOS/UIkit.md)|
 |Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.|-|
 |Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.|-|
