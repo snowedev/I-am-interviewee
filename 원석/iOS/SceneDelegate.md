@@ -1,6 +1,7 @@
 # SceneDelegate에 대해 설명하시오
 
-## 참고하면 좋은 블로그
+
+## 도움을 준 좋은 블로그
 * [AppDelegate와 SceneDelegate-lena](https://velog.io/@dev-lena/iOS-AppDelegate와-SceneDelegate)
 * [Architecting Your App for Multiple Windows-WWDC19](https://developer.apple.com/videos/play/wwdc2019/258/)
 * [iOS13이상 버전의 SceneDelegate-김종권의 iOS](https://ios-development.tistory.com/53)

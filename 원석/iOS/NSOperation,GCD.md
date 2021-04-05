@@ -1,6 +1,6 @@
 # NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
 
-## 참고하면 좋은 블로그
+## 도움을 준 좋은 블로그
 * [GCD Queue와 NSOperation Queue의 특징과 차이점
 ](https://www.zehye.kr/ios/2020/04/23/11iOS_GCD_NSOperation_queue/)
 
