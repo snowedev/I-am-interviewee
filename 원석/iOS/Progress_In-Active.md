@@ -1,7 +1,7 @@
 # 앱이 In-Active 상태가 되는 시나리오를 설명하시오
 
 
-## 참고하면 좋은 블로그
+## 도움을 준 좋은 블로그
 * [App Life Cycle[ rnfxl92]](https://velog.io/@rnfxl92/앱-생명주기-Application-Life-Cycle)
 
 

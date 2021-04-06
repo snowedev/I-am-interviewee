@@ -1,7 +1,7 @@
 # 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
 
 
-## 참고하면 좋은 블로그
+## 도움을 준 좋은 블로그
 * [Custom View 만들기](https://nsios.tistory.com/83?category=803407)
 
 ## Answer

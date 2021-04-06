@@ -4,7 +4,7 @@
 
 <br>
 
-## 참고하면 좋은 블로그
+## 도움을 준 좋은 블로그
 * [iOS13에서-분할된-AppDelegate와-추가된SceneDelegate이해하기](https://huniroom.tistory.com/entry/)
 * [AppDelegate와 SceneDelegate-lena](https://velog.io/@dev-lena/iOS-AppDelegate와-SceneDelegate)
 * [iOS13이상 버전의 SceneDelegate-김종권의 iOS](https://ios-development.tistory.com/53)

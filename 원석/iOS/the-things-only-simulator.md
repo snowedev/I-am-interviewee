@@ -1,7 +1,7 @@
 # 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
 
 
-## 참고하면 좋은 사이트
+## 도움을 준 좋은 블로그
 > 이 문서를 참조하면 시뮬레이터 환경에서 할 수 없는 것들을 자세히 알 수 있다.
 [TestingontheiOSSimulator](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/iOS_Simulator_Guide/TestingontheiOSSimulator/TestingontheiOSSimulator.html) 
 
