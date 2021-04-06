@@ -33,6 +33,6 @@ cornerRadius나 shadow 관련 코드에서 많이 보이는 clipsToBounds, masks
 
 둘은 SubView나 SubLayer의 내용(글씨 등)이 루트 Layer의 경계를 무시하고 자신을 보여주느냐 경계에 맞추어 잘리느냐를 설정해주는 Bool타입의 메서드입니다.
 
-<img width="49%" alt="image" src="https://user-images.githubusercontent.com/42789819/113591359-c1fbb680-966e-11eb-9cc3-4096d0d808f1.png">
+<img width=40% alt="image" src="https://user-images.githubusercontent.com/42789819/113591359-c1fbb680-966e-11eb-9cc3-4096d0d808f1.png">
 
-<img width="49%" alt="image" src="https://user-images.githubusercontent.com/42789819/113591319-b4463100-966e-11eb-81ac-114815f8a004.png">
+<img width=40% alt="image" src="https://user-images.githubusercontent.com/42789819/113591319-b4463100-966e-11eb-81ac-114815f8a004.png">
