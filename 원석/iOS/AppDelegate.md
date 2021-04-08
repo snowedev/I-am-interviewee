@@ -32,17 +32,18 @@
 * [SceneDelegate에 대해 설명하시오](./SceneDelegate.md)
 
 
+
+## **[call stack]**  
+> iOS13이상 버전 : App하나에 여러 UI 인스턴스 존재 가능 (App Delegate가 Session을 관리하므로)  
+> general: App Delegate / **`highlight`**: Scene Delegate  
+
+앱 클릭 → didFinishLaunchingWithOptions → configurationForConnecting → **`willConnectTo session`**(아직 화면에는 앱이 안뜬 상태) → **`scene(_:willConnectTo)에서, window = UIWindow(windowScene: scene as! UIWindowScene)`**(화면에 앱이 등장) → **`willResignActive, didEnterBackground`** → **`didDisconnect`**(앱 화면을 명시적으로 종료할 시 ) → didDiscardSceneSceneSessions: scene이 didDisconnect됐을 경우(유저의 포커스에서 벗어난 후 다시 포커스를 받은 경우 데이터를 유지 하기 위해, 이곳에서 복구관련 정보를 획득 == 한 앱을 여러 화면 띄울 수 있음)
+
+---
 <br>
 
 ## Answer
 
-**[call stack]**  
-> iOS13이상 버전 : App하나에 여러 UI 인스턴스 존재 가능 (App Delegate가 Session을 관리하므로)  
-> general: App Delegate / **`highlight`**: Scene Delegate  
-
-앱 클릭 → didFinishLaunchingWithOptions → configurationForSession → **`willConnectToSession`**(아직 화면에는 앱이 안뜬 상태) → **`scene(_:willConnectTo)에서, window = UIWindow(windowScene: scene as! UIWindowScene)`**(화면에 앱이 등장) → **`willResignActive, didEnterBackground`** → **`didDisconnect`**(앱 화면을 명시적으로 종료할 시 ) → didDiscardSceneSceneSessions: scene이 didDisconnect됐을 경우(유저의 포커스에서 벗어난 후 다시 포커스를 받은 경우 데이터를 유지 하기 위해, 이곳에서 복구관련 정보를 획득 == 한 앱을 여러 화면 띄울 수 있음)
-
----
 
 <br>
 
@@ -89,6 +90,7 @@ func application (_ : didDiscardSceneSessions :)
 
 
 <br>
+
 > AppDelegate의 UIWindow와 관련된 것은 이제 SceneDelegate의 UIScene입니다.
 
 
