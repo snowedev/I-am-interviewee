@@ -36,6 +36,10 @@ MRC(Manual Reference Counting)를 사용할 때에는 retain, release 메서드�
 
 ### `retain`
 
+1. 새로 인스턴스를 생성할 경우
+
+이때는 MRC여도 RC가 자동으로 +1 된다.
+
 ```obj-c
 // test라는 인스턴스 생성
 TestClass *test [[TestClass alloc] init];
@@ -44,11 +48,13 @@ TestClass *test [[TestClass alloc] init];
 test.retainCount == 1 
 */
 ```
-새로 인스턴스를 생성할 경우 RC가 자동으로 +1
-
 <img width=50% src="https://user-images.githubusercontent.com/42789819/114310064-63c64c00-9b24-11eb-94c8-053b01d2b4a1.png">
 
 
+2. 기존 인스턴스를 참조할 경우에는?
+
+test2에서 기존 인스턴스(test)를 참조
+> ARC의 경우에는 자동으로 RC가 +1 됐음
 
 ```obj-c
 TestClass *test [[TestClass alloc] init];
@@ -56,24 +62,23 @@ TestClass *test2 = test;
 
 // test.retainCount == 1 
 ```
-수동으로 retain을 해주지 않았기 때문에 아직 RC가 증가되지 않는다.
+하지만 MRC는 수동으로 retain을 해주지 않았기 때문에 아직 RC가 증가되지 않는다.
 
 
+이렇게 retain 을 수동으로 해주어야 retain count가 증가한다.
 ```obj-c
 TestClass *test [[TestClass alloc] init];
 TestClass *test2 = [test retain];
  
 //test.retainCount == 2
 ```
-이렇게 retain 을 수동으로 해주어야 retain count가 증가한다.
-
 <img width=50% src="https://user-images.githubusercontent.com/42789819/114310065-65900f80-9b24-11eb-8a41-f698f87aff55.png">
 
 
 
 ### `release`
 
-test2를 더이상 사용하지 않을거야 ARC처럼 nil을 대입해볼까?
+1. test2를 더이상 사용하지 않을거야 ARC처럼 nil을 대입해볼까?
 
 ```obj-c
 TestClass *test [[TestClass alloc] init];
