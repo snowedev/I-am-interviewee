@@ -29,18 +29,14 @@
 
 
 ### API Differences
-> Simulator APIs don’t have all the features that are available on a device.  
-> For example, the APIs don’t offer:
 
-* Receiving and sending Apple push notifications
-* Privacy alerts for access to Photos, Contacts, Calendar, and Reminders
-* The UIBackgroundModes key
-* Handoff support
+* Receiving and sending Apple push notifications(푸쉬알림 받기 및 보내기)
+* UIBackgroundModes
+* Handoff
 
-> In addition, Simulator doesn’t support the following frameworks:
-
+> Frameworks that simulator doesn't support ⬇️ :
 * External Accessory
-* IOSurface
+* IOSurface(이미지 메모리 관리 효율성 높이는 프레임워크)
 * Media Player
 * Message UI
 * In UIKit, the UIVideoEditorController class
@@ -48,3 +44,4 @@
 
 ### + 
 * Simulator does not include backward compatibility with all versions of iOS and watchOS(시뮬레이터는 모든 iOS, watchOS의 버전들의 하위호환을 포함하지 않는다).
+* Cherish를 하면서 알게된거지만 전화도 안됨(전화번호는 있음)
