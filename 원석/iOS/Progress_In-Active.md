@@ -22,4 +22,4 @@
 1. 사용자가 앱을 실행합니다: `Not Running → In-Active → Active`
 2. 앱 실행 도중 홈으로 나갑니다: `Active → In-Active → Background`  
     2-1. 앱을 다시 켭니다: `Background → Active`  
-    2-2. 앱이 백그라운드에 있다가 Suspended 상태로 전이됩니다: `Active → In-Active → Background → Suspended`
+    2-2. 앱이 백그라운드 혹은 Suspended 상태에서 사용자에 의해 종료: `Background,Suspended → Not Running`
