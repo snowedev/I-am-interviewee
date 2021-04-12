@@ -25,3 +25,5 @@ ARC는 사용 가능성이 있는 인스턴스의 메모리를 해제하는 일�
 ## 생각해보기 
 
 **Run time에 계속 실행되는 것이 아니라 Complie time(build할 때)에 실행된다고 하였는데 그럼 어떻게 동적으로 실행되는 것들의 reference count를 세고 메모리 관리를 할 수 있을까?**
+
+Answer: [Retain Count가 되는 방식](./Reference-count-in-ARC.md)
