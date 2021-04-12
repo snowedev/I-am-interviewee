@@ -51,7 +51,7 @@
 |오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)|-|
 |hugging, resistance에 대해서 설명하시오.|-|
 |Intrinsic Size에 대해서 설명하시오.|-|
-|스토리보드를 이용했을때의 장단점을 설명하시오.|[✋🏽](./iOS/pros&cons-of-storyboard.md)|
+|스토리보드를 이용했을때의 장단점을 설명하시오.|[✋🏽](./AutoLayout/pros&cons-of-storyboard.md)|
 |Safearea에 대해서 설명하시오.|-|
 |Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.|-|
 
@@ -87,8 +87,8 @@
 |Question|Answer|
 |:----------|:-----:|
 |ARC란 무엇인지 설명하시오.|[✋🏽](./ARC/ARC.md)|
-|Retain Count 방식에 대해 설명하시오.|[✋🏽](./iOS/Reference-count-in-ARC.md)|
-|Strong 과 Weak 참조 방식에 대해 설명하시오.|[✋🏽](./iOS/Strong,Weak,Unowned.md)|
+|Retain Count 방식에 대해 설명하시오.|[✋🏽](./ARC/Reference-count-in-ARC.md)|
+|Strong 과 Weak 참조 방식에 대해 설명하시오.|[✋🏽](./ARC/Strong,Weak,Unowned.md)|
 |ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.|[✋🏽](./ARC/MRC.md)|
 |retain 과 assign 의 차이점을 설명하시오.|-|
 |순환 참조에 대하여 설명하시오.|-|
