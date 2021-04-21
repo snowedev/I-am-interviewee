@@ -11,6 +11,8 @@
 * 자신이 참조하는 인스턴스의 RC를 증가시킨다.
 * 인스턴스 생성시 & 참조시 retain, 참조 종료시 release
 * weak, unouwned로 선언하지 않았다면 default로 strong
+> IBOutlet에서는 default가 weak  
+> Apple이 2015년에 강한순환참조를 피할 때를 제외하고는 strong을 사용하는게 더 안전하다고 했다고 한다..[참고](https://developer.apple.com/forums/thread/51044)
 
 
 ### Weak
