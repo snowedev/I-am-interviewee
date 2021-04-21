@@ -13,10 +13,10 @@
 * 클래스 (Class): 특정한 타입의 객체에 공통되는 동작과 속성을 묘사한 코드 조각으로 본질적으로 객체의 청사진을 제공.
 
 
-## 함께 보면 좋은 답변
+## 함께 보면 좋은 답변, 글
 * [상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.](./AppDelegate.md)
 * [앱이 In-Active 상태가 되는 시나리오를 설명하시오](./Progress_In-Active.md)
-
+* [UIScene, UIWindowScene, UISceneSession 이란 무엇인가](https://eunjin3786.tistory.com/164)
 
 <br>
 

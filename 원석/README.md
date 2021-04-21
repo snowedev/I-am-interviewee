@@ -21,7 +21,7 @@
 |GCD API 동작 방식과 필요성에 대해 설명하시오.|-|
 |자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.|[✋🏽](./iOS/xib.md)|
 |iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?|[✋🏽](./iOS/UIkit.md)|
-|Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.|-|
+|Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.|[✋🏽](./iOS/FoundationKit.md)|
 |Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.|-|
 |NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.|[✋🏽](./iOS/NotificationCenter.md)|
 |UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?|-|
@@ -51,7 +51,7 @@
 |오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)|-|
 |hugging, resistance에 대해서 설명하시오.|-|
 |Intrinsic Size에 대해서 설명하시오.|-|
-|스토리보드를 이용했을때의 장단점을 설명하시오.|-|
+|스토리보드를 이용했을때의 장단점을 설명하시오.|[✋🏽](./AutoLayout/pros&cons-of-storyboard.md)|
 |Safearea에 대해서 설명하시오.|-|
 |Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.|-|
 
@@ -86,10 +86,10 @@
 ## ARC
 |Question|Answer|
 |:----------|:-----:|
-|ARC란 무엇인지 설명하시오.|-|
-|Retain Count 방식에 대해 설명하시오.|-|
-|Strong 과 Weak 참조 방식에 대해 설명하시오.|-|
-|ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.|-|
+|ARC란 무엇인지 설명하시오.|[✋🏽](./ARC/ARC.md)|
+|Retain Count 방식에 대해 설명하시오.|[✋🏽](./ARC/Reference-count-in-ARC.md)|
+|Strong 과 Weak 참조 방식에 대해 설명하시오.|[✋🏽](./ARC/Strong,Weak,Unowned.md)|
+|ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.|[✋🏽](./ARC/MRC.md)|
 |retain 과 assign 의 차이점을 설명하시오.|-|
 |순환 참조에 대하여 설명하시오.|-|
 |강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.|-|
