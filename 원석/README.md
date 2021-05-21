@@ -63,7 +63,7 @@
 |:----------|:-----:|
 |Optional 이란 무엇인지 설명하시오.|-|
 |Fast Enumeration 이란 무엇인지 설명하시오. |-|
-|Struct 가 무엇이고 어떻게 사용하는지 설명하시오.|-|
+|Class 와 Struct의 차이점에 대해 설명하시오.|[✋🏽](./Swift/ClassStruct.md)|
 |instance 메서드와 class 메서드의 차이점을 설명하시오.|-|
 |Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.|-|
 |Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.|-|
