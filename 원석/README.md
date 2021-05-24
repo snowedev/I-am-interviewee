@@ -69,7 +69,7 @@
 |Singleton Pattern에 대해 설명하시오.|[✋🏽](./Swift/SingletonPattern.md)|
 |Observer Pattern에 대해 설명하시오.|[✋🏽](./Swift/ObserverPattern.md)|
 |KVO 동작 방식에 대해 설명하시오.|-|
-|Delegates와 Notification 방식의 차이점에 대해 설명하시오.|-|
+|Delegates와 Notification 방식의 차이점에 대해 설명하시오.|[✋🏽](./Swift/Delegate,Notification.md)|
 |멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.|-|
 |MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.|-|
 |프로토콜이란 무엇인지 설명하시오.|-|
