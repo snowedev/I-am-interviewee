@@ -71,7 +71,6 @@
 |KVO 동작 방식에 대해 설명하시오.|-|
 |Delegates와 Notification 방식의 차이점에 대해 설명하시오.|[✋🏽](./Swift/Delegate,Notification.md)|
 |멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.|-|
-|MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.|-|
 |프로토콜이란 무엇인지 설명하시오.|-|
 |Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.|-|
 |mutating 키워드에 대해 설명하시오.|-|
@@ -97,6 +96,13 @@
 |특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.|-|
 |Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. |-|
 
+<br>
+
+## Architecture
+|Question|Answer|
+|:----------|:-----:|
+|MVC, MVVM, Viper 등 자신이 알고있는 아키텍쳐를 설명하시오.|[✋🏽](./Architecture/Architecture.md)|
+의존성 주입에 대하여 설명하시오.||
 
 <br>
 
