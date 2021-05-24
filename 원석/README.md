@@ -67,6 +67,7 @@
 |instance 메서드와 class 메서드의 차이점을 설명하시오.|-|
 |Delegate Pattern에 대해 설명하시오.|[✋🏽](./Swift/DelegatePattern.md)|
 |Singleton Pattern에 대해 설명하시오.|[✋🏽](./Swift/SingletonPattern.md)|
+|Observer Pattern에 대해 설명하시오.|[✋🏽](./Swift/ObserverPattern.md)|
 |KVO 동작 방식에 대해 설명하시오.|-|
 |Delegates와 Notification 방식의 차이점에 대해 설명하시오.|-|
 |멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.|-|
