@@ -64,6 +64,7 @@
 |Optional 이란 무엇인지 설명하시오.|-|
 |Fast Enumeration 이란 무엇인지 설명하시오. |-|
 |Class 와 Struct의 차이점에 대해 설명하시오.|[✋🏽](./Swift/ClassStruct.md)|
+|Property 대해 설명하시오.|[✋🏽](./Swift/Property.md)|
 |instance 메서드와 class 메서드의 차이점을 설명하시오.|-|
 |Delegate Pattern에 대해 설명하시오.|[✋🏽](./Swift/DelegatePattern.md)|
 |Singleton Pattern에 대해 설명하시오.|[✋🏽](./Swift/SingletonPattern.md)|
