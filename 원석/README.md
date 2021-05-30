@@ -22,7 +22,7 @@
 |자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.|[✋🏽](./iOS/xib.md)|
 |iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?|[✋🏽](./iOS/UIkit.md)|
 |Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.|[✋🏽](./iOS/FoundationKit.md)|
-|Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.|-|
+|Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.|[✋🏽](./Swift/DelegatePattern.md)|
 |NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.|[✋🏽](./iOS/NotificationCenter.md)|
 |UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?|-|
 |TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.|-|
