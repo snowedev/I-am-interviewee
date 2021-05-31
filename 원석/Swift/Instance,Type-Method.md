@@ -3,7 +3,7 @@
 
 ## 참고한 좋은 글
 * [Swift - 타입 메소드 & 인스턴스 메소드](https://jiseobkim.github.io/swift/2018/10/05/swift_basic-타입-메소드-&-인스턴스-메소드.html)
-
+* [Method-zeddios](https://zeddios.tistory.com/258)
 
 
 ## Answer

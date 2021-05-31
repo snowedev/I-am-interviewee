@@ -61,18 +61,18 @@
 ## Swift
 |Question|Answer|
 |:----------|:-----:|
-|Optional 이란 무엇인지 설명하시오.|-|
+|Optional 이란 무엇인지 설명하시오.|[✋🏽](./Swift/Optional.md)|
 |Fast Enumeration 이란 무엇인지 설명하시오. |-|
 |Class 와 Struct의 차이점에 대해 설명하시오.|[✋🏽](./Swift/ClassStruct.md)|
 |Property 대해 설명하시오.|[✋🏽](./Swift/Property.md)|
-|instance 메서드와 class 메서드의 차이점을 설명하시오.|-|
+|instance 메서드와 class 메서드의 차이점을 설명하시오.|[✋🏽](./Swift/Instance,Type-Method.md)|
 |Delegate Pattern에 대해 설명하시오.|[✋🏽](./Swift/DelegatePattern.md)|
 |Singleton Pattern에 대해 설명하시오.|[✋🏽](./Swift/SingletonPattern.md)|
 |Observer Pattern에 대해 설명하시오.|[✋🏽](./Swift/ObserverPattern.md)|
 |KVO 동작 방식에 대해 설명하시오.|-|
 |Delegates와 Notification 방식의 차이점에 대해 설명하시오.|[✋🏽](./Swift/Delegate,Notification.md)|
 |멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.|-|
-|프로토콜이란 무엇인지 설명하시오.|-|
+|프로토콜이란 무엇인지 설명하시오.|[✋🏽](./Swift/Protocol.md)|
 |Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.|-|
 |mutating 키워드에 대해 설명하시오.|-|
 |탈출(@escaping) 클로저에 대하여 설명하시오.|[✋🏽](./Swift/Escaping-Closure.md)|
