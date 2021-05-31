@@ -3,7 +3,7 @@
 
 <br>
 
-## 참고하면 좋은 블로그
+## 도움을 준 좋은 블로그
 * [App States(앱의 상태)란 [엠아이노의 iOS]](https://minosaekki.tistory.com/16)
 * [Preparing Your UI to Run in the Background [Apple]](https://developer.apple.com/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background)
 

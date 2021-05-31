@@ -7,7 +7,7 @@
 > CGRect는 "사각형"으로 그려지며, origin과 size를 가진다. 즉, [x좌표, y좌표, width(너비), height(높이)]를 가진다.    
 
 
-## 참고하면 좋은 블로그
+## 도움을 준 좋은 블로그
 * [ZeddiOS-Frame과 Bounds의 차이(1/2)](https://zeddios.tistory.com/203)
 * [ZeddiOS-Frame과 Bounds의 차이(2/2)](https://zeddios.tistory.com/231)
 
