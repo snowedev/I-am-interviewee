@@ -76,6 +76,7 @@
 |Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.|-|
 |mutating 키워드에 대해 설명하시오.|-|
 |탈출(@escaping) 클로저에 대하여 설명하시오.|[✋🏽](./Swift/Escaping-Closure.md)|
+|Generic에 대해 설명하시오.|[✋🏽](./Swift/Generic.md)|
 |Extension에 대해 설명하시오.|-|
 |접근 제어자의 종류엔 어떤게 있는지 설명하시오|-|
 |defer란 무엇인지 설명하시오.|-|
