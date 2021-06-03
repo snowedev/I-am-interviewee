@@ -5,10 +5,10 @@
 <br>
 
 ## 👩🏻‍💼🧑🏻‍💼 참여자
-| Interviewee | Answer | branch | Github | Day |
-|:----------:|:-----:|:-----:|:-----:|:-----:|
-|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863006-285cb580-899c-11eb-8977-3c251851fdca.png> | [wonseok's Collection](./원석)| wonseok | [🚀](https://github.com/snowedev) | 21.03.15~ |
-|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863005-2692f200-899c-11eb-893d-bf7a4d30024b.jpeg> | [sujeong's Collection](./수정)| sujeong |[🚀](https://github.com/suzumsz) | 21.03.26~ |
+| Interviewee | Answer | Github | Day |
+|:----------:|:-----:|:-----:|:-----:|
+|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863006-285cb580-899c-11eb-8977-3c251851fdca.png> | [✋🏽](./원석)| [🚀](https://github.com/snowedev) | 21.03.15~ |
+|<img width=100px src=https://user-images.githubusercontent.com/42789819/111863005-2692f200-899c-11eb-893d-bf7a4d30024b.jpeg> | [🖐🏻](./수정)|[🚀](https://github.com/suzumsz) | 21.03.26~ |
 
 
 <br>
