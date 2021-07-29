@@ -4,6 +4,7 @@
  - [GCD (Grand Central Dispatch) - 끄적이는 개발 노트](https://beenii.tistory.com/155)
  - [GCD에 대해서 알아보기 (DispathQueue) - 마기](https://magi82.github.io/gcd-01/)
  - [Concurrency Programming Guide - Dispatch Queues - Zedd](https://zeddios.tistory.com/513)
+ - [GCD - Dispatch Queue사용법 (1) - Zedd](https://zeddios.tistory.com/516)
 
 
 ## 관련된 답변
@@ -12,7 +13,7 @@
 ## Answer
 
 
-### 개념
+### **`개념`**
 쉽고 편한 멀티 스레딩의 처리를 위해 Apple에서는 두가지 API를 제공한다.
 * GCD(Grand Central Dispatch) - C기반의 저수준 API
 * NSOperation - Obj-C기반의 고수준 API  
@@ -42,10 +43,10 @@
 > let wsQueue = DispatchQueue(label: "ws") 이런식으로 커스텀 큐 생성도 가능하다 
 
 * `main queue`
-    * 메인 스레드(UI 스레드)에서 사용 되는 **Serial Queue**
+    * 메인 스레드(UI 스레드)에서 사용 되는 `Serial Queue`
     * 모든 UI 처리는 메인 스레드에서 처리해야 함
 * `global queue`
-    * 편의상 사용할수 있게 만들어 놓은 **Concurrent Queue**
+    * 편의상 사용할수 있게 만들어 놓은 `Concurrent Queue`
     * Global Queue는 처리 우선 순위를 위한 [qos(Quality of service)](./qos.md) 파라미터를 제공
     * 병렬적으로 동시에 처리를 하기때문에 작업 완료의 순서는 정할 수 없지만 우선적으로 일을 처리하게 할 수 있다
 
@@ -54,9 +55,9 @@
 </br>
 
 
-### 동작방식
+### **`동작방식`**
 
-* Concurrent && sync
+* `Concurrent && sync`
     ```swift
     // MARK: - Concurrent && sync
     DispatchQueue.global().sync {
@@ -88,7 +89,11 @@
         105
         ==================
         ```
-* Serial && sync
+
+</br>
+
+* `Serial && sync`
+    > [main.sync로 코드를 작성하지 않은 이유?](https://zeddios.tistory.com/519)
     ```swift
     // MARK: - Serial && sync
     let wsQueue = DispatchQueue(label: "ws")
@@ -122,7 +127,10 @@
         105
         ==================
         ```
-* Concurrent && async
+
+</br>
+
+* `Concurrent && async`
     ```swift
     // MARK: - Concurrent && async
     DispatchQueue.global().async {
@@ -166,7 +174,10 @@
         104👻
         105👻
         ```
-* Serial && async
+
+</br>
+
+* `Serial && async`
     ```swift
     // MARK: - Serial && async
     wsQueue.async {
@@ -216,7 +227,7 @@
 </br>
 
 
-### 필요성
+### **`필요성`**
 
 * `GCD 이전의 멀티 스레딩`
 
