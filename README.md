@@ -5,14 +5,16 @@
 <br>
 
 ## **Index**
-1. [iOS](##-iOS)
-2. [AutoLayout](##-AutoLayout)
-3. [Swift](##-Swift)
-4. [ARC](##-ARC)
-5. [Architecture](##-Architecture)
-6. [Functional Programming](##-Functional-Programming)
-7. [Advanced](##-Advanced)
-8. [Rx](##-Rx)
+* [**Required**](#--required--)
+    * [iOS](#ios)
+    * [Autolayout](#autolayout)
+    * [Swift](#swift)
+    * [ARC](#arc)
+    * [Architecture](#architecture)
+    * [Functional Programming](#functional-programming)
+* [**Optional**](#--optional--)
+    * [Advanced](#advanced)
+    * [Rx](#rx)
 
 
 <br>
