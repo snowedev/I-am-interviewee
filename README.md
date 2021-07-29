@@ -33,7 +33,7 @@
 |Scene delegate에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/SceneDelegate.md)|
 |앱이 In-Active 상태가 되는 시나리오를 설명하시오.|[<kbd>Done</kbd>](./iOS/Progress_In-Active.md)|
 |NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.|[<kbd>Done</kbd>](./iOS/NSOperation,GCD.md)|
-|GCD API 동작 방식과 필요성에 대해 설명하시오.|-|
+|GCD API 동작 방식과 필요성에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/GCD-API.md)|
 |자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.|[<kbd>Done</kbd>](./iOS/xib.md)|
 |iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?|[<kbd>Done</kbd>](./iOS/UIkit.md)|
 |Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.|[<kbd>Done</kbd>](./iOS/FoundationKit.md)|
