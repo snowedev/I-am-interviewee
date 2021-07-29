@@ -5,7 +5,7 @@
  - [GCD에 대해서 알아보기 (DispathQueue) - 마기](https://magi82.github.io/gcd-01/)
  - [Concurrency Programming Guide - Dispatch Queues - Zedd](https://zeddios.tistory.com/513)
  - [GCD - Dispatch Queue사용법 (1) - Zedd](https://zeddios.tistory.com/516)
-
+ - [Concurrency Programming Guide - DispatchQueue](https://developer.apple.com/library/archive/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW1)
 
 ## 관련된 답변
 - [Operation Queue, GCD Queue](./NSOperation,GCD.md)
