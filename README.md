@@ -5,14 +5,14 @@
 <br>
 
 ## **Index**
-* [**Required**](#--required--)
+* [**Required**](#required)
     * [iOS](#ios)
     * [Autolayout](#autolayout)
     * [Swift](#swift)
     * [ARC](#arc)
     * [Architecture](#architecture)
     * [Functional Programming](#functional-programming)
-* [**Optional**](#--optional--)
+* [**Optional**](#optional)
     * [Advanced](#advanced)
     * [Rx](#rx)
 
