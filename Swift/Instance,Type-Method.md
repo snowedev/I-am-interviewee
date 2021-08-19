@@ -4,7 +4,7 @@
 ## 참고한 좋은 글
 * [Swift - 타입 메소드 & 인스턴스 메소드](https://jiseobkim.github.io/swift/2018/10/05/swift_basic-타입-메소드-&-인스턴스-메소드.html)
 * [Method-zeddios](https://zeddios.tistory.com/258)
-
+* [The Swift Programming Language-Methods](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)
 
 ## Answer
 
@@ -52,7 +52,7 @@ print(sec.secInstance()) // MARK: - 인스턴스 메서드 호출
 ```
 
 > #### 인스턴스 메서드는 mutating 키워드와도 연관성이 깊다. 같이 보면 좋음!   
-> #### [Modifying Value Types from Within Instance Methods](./Swift/mutating.md)
+> #### [Modifying Value Types from Within Instance Methods](./mutating.md)
 
 
 <br>
