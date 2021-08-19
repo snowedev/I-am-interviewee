@@ -1,7 +1,6 @@
 # iOS 기술 면접을 준비하는 레포
 > [👨🏻‍💻👩🏻‍💻iOS 면접에 나올 질문들 총 정리](https://github.com/JeaSungLEE/iOSInterviewquestions)에 기재된 리스트를 토대로 공부하는 Repository입니다.
 
-
 <br>
 
 ## **Index**
@@ -80,7 +79,7 @@
 |Fast Enumeration 이란 무엇인지 설명하시오. |-|
 |Class 와 Struct의 차이점에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/ClassStruct.md)|
 |Property 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/Property.md)|
-|instance 메서드와 class 메서드의 차이점을 설명하시오.|[<kbd>Done</kbd>](./Swift/Instance,Type-Method.md)|
+|Instance 메서드와 Type 메서드의 차이점을 설명하시오.|[<kbd>Done</kbd>](./Swift/Instance,Type-Method.md)|
 |Delegate Pattern에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/DelegatePattern.md)|
 |Singleton Pattern에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/SingletonPattern.md)|
 |Observer Pattern에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/ObserverPattern.md)|
