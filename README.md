@@ -133,7 +133,7 @@
 |||
 |Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.|-|
 |||
-|mutating 키워드에 대해 설명하시오.|-|
+|mutating 키워드에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/mutating.md)|
 |||
 |탈출(@escaping) 클로저에 대하여 설명하시오.|[<kbd>Done</kbd>](./Swift/Escaping-Closure.md)|
 |||
