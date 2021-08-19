@@ -35,7 +35,7 @@
 |||
 |Scene delegate에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/SceneDelegate.md)|
 |||
-|App LifeCycle에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/App-LifeCycle.md)|
+|App LifeCycle과 동작 시나리오에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/App-LifeCycle.md)|
 |||
 |NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.|[<kbd>Done</kbd>](./iOS/NSOperation,GCD.md)|
 |||
@@ -93,7 +93,7 @@
 |||
 |스토리보드를 이용했을때의 장단점을 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/pros&cons-of-storyboard.md)|
 |||
-|Safearea에 대해서 설명하시오.|-|
+|Safearea에 대해서 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/safearea.md)|
 |||
 |Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/left,leading.md)|
 |||
