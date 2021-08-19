@@ -35,9 +35,7 @@
 |||
 |Scene delegate에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/SceneDelegate.md)|
 |||
-|앱이 In-Active 상태가 되는 시나리오를 설명하시오.|[<kbd>Done</kbd>](./iOS/Progress_In-Active.md)|
-|||
-|App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.|-|
+|App LifeCycle에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/App-LifeCycle.md)|
 |||
 |NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.|[<kbd>Done</kbd>](./iOS/NSOperation,GCD.md)|
 |||
