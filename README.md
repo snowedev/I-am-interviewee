@@ -55,9 +55,9 @@
 |||
 |UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?|[<kbd>Done</kbd>](./iOS/MainThread.md)|
 |||
-|TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.|-|
+|TableView의 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.|[<kbd>Done</kbd>](./iOS/TableView.md)|
 |||
-|하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.|-|
+|하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.|[<kbd>Done</kbd>](./iOS/Several-TableView.md)|
 |||
 |App Bundle의 구조와 역할에 대해 설명하시오.|-|
 |||
