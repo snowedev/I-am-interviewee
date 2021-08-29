@@ -59,7 +59,7 @@
 |||
 |하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.|[<kbd>Done</kbd>](./iOS/Several-TableView.md)|
 |||
-|App Bundle의 구조와 역할에 대해 설명하시오.|-|
+|App Bundle의 구조와 역할에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/AppBundle.md)|
 |||
 |View 객체에 대해 설명하시오.|-|
 |||
