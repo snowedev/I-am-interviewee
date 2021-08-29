@@ -21,25 +21,25 @@
 
     <img width=50% alt="image" src="https://user-images.githubusercontent.com/42789819/131257318-59644b8e-d6f6-4281-9c12-96b022e87022.png">
     
-    Finder에서 응용 프로그램 탭으로 이동한 후 아무 앱 아이콘을 오른쪽 클릭으로 확인하면 놀랍게도 패키지 내용 보기 옵션이 존재한다. 이는 `App`도 `Package`의 종류 중 하나임을 의미한다. MacOS에서는 하나의 Application을 `.app`이라는 확장자가 붙는 `Package`로 취급한다. 시스템(`Finder`)은 `.app`, `.bundle`, `.framework`, `.plugin` 와 같은 확장자를 가진 디렉토리를 `Package`로 인식한다.
+    `Finder`에서 응용 프로그램 탭으로 이동한 후 아무 앱 아이콘을 오른쪽 클릭으로 확인하면 놀랍게도 패키지 내용 보기 옵션이 존재한다. 이는 `App`도 `Package`의 종류 중 하나임을 의미한다. MacOS에서는 하나의 Application을 `.app`이라는 확장자가 붙는 `Package`로 취급한다. 시스템(`Finder`)은 `.app`, `.bundle`, `.framework`, `.plugin` 와 같은 확장자를 가진 디렉토리를 `Package`로 인식한다.
 
 <br>
 
 * **Bundle - 실행 가능한 코드와 코드에 의해 사용되는 리소스를 가진 디렉토리**  
 
-    `Bundle`은 `Package`처럼 디렉토리의 한 종류를 지칭하지만, 실행 가능한 코드와 리소스를 포함하는 디렉토리이다. 많은 `Bundle`이 `Package`이기도 하기 때문에 Bundle과 Package 개념을 서로 혼용해서 쓰는 경우가 많다. `application` 같은 경우는 `Finder`에서 사용자에게 단일한 파일로 노출되는 `Package`이면서, 실행 코드와 리소스를 포함하여 `Bundle`이기도 한 대표적인 예 이기도하다.
+    `Bundle`은 `Package`처럼 디렉토리의 한 종류를 지칭하지만, 실행 가능한 코드와 리소스를 포함하는 디렉토리이다. 많은 `Bundle`이 `Package`이기도 하기 때문에 `Bundle`과 `Package` 개념을 서로 혼용해서 쓰는 경우가 많다. `application` 같은 경우는 `Finder`에서 사용자에게 단일한 파일로 노출되는 `Package`이면서, 실행 코드와 리소스를 포함하여 `Bundle`이기도 한 대표적인 예이다.
     > Bundle은 사용자에게 보여지는 이름과 실제 Bundle이 사용하는 File System의 이름을 따로 관리한다. 예를 들어, Finder에서 이름을 변경하는 것은 Display Name만 변경하는 것이다.
 
 
 <br>
 
 앞서 말했듯 앱은 패키지이면서 번들이기도 한 대표적인 예이다.   
-이를 토대로 App Bundle에 대해 설명하자면, App Bundle은 `샌드박스 구조`에서 Bundle Container로 앱의 `실행 코드와 리소스를` 하나의 공간에 그룹화하여 저장한 `디렉토리`를 말한다.
+이를 토대로 App Bundle에 대해 좀 더 자세히 설명하면, App Bundle은 `샌드박스 구조`에서 Bundle Container로 앱의 `실행 코드와 리소스를` 하나의 공간에 그룹화하여 저장한 `디렉토리`를 말한다.
 
-여기서 `샌드박스`란, 어린아이를 보호하기 위해 이 샌드박스 내에서만 놀도록 하는 의미에서 유래된 보안 모델이다. 
+여기서 `샌드박스`란, **보호된 영역 내에서만 프로그램을 동작시키는 것**으로 어린아이를 보호하기 위해 이 샌드박스 내에서만 놀도록 하는 의미에서 유래된 `보안 모델`이다. 
 > [참고링크 1번](https://sihyungyou.github.io/iOS-app-bundle/)을 참고하면 더 자세한 설명이 있다.  
 
-이러한 샌드박스로 앱을 감싸지 않는다면 앱은 자신을 실행하는 사용자의 모든 권한을 갖고, 사용자가 접근할 수 있는 모든 리소스에 동일하게 접근이 가능하다. 이러한 경우, 앱이나 연결된 프레임워크에 보안적 결함이 있을 때 이를 악용할 수 있으며 사용자가 수행할 수 있는 모든 작업을 수행할 수 있게 되는 문제가 생긴다. 이러한 보안 문제를 해결하기 위해 iOS는 앱이 모두 SandBox화 되어있다.
+만약 샌드박스로 앱을 감싸지 않는다면 앱은 자신을 실행하는 사용자의 모든 권한을 갖고, 사용자가 접근할 수 있는 모든 리소스에 동일하게 접근이 가능하다. 이러한 경우, 앱이나 연결된 프레임워크에 보안적 결함이 있을 때 이를 악용할 수 있으며 사용자가 수행할 수 있는 모든 작업을 수행할 수 있게 되는 문제가 생긴다. 이러한 보안 문제를 해결하기 위해 iOS는 앱이 모두 SandBox화 되어있다.
 
 
 <br>
@@ -58,7 +58,7 @@ Bundle.main
 
 만약 Xcode 프로젝트에서 어떤 외부 리소스를 추가하려고 하면 아래와 같은 화면이 뜨게 되는데
 
-<img width = 70% src=https://user-images.githubusercontent.com/13018877/50164727-cf1dfb80-0326-11e9-8bbf-4b0a9bb46003.png>
+<img width = 70% src=https://user-images.githubusercontent.com/42789819/131258421-443d47d5-b13a-465b-a5a6-ac2c1e800f36.png>
 
 여기서 확인을 누르면 앱 전역에서 다음과 같은 형태로 리소스에 접근할 수 있다. 이미지의 경우 아래와 같이 사용할 수 있으며, 그 외 다른 메서드들은 [공식문서](https://developer.apple.com/documentation/foundation/bundle) 하단을 참고하면 된다.
 
