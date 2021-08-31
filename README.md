@@ -89,7 +89,7 @@
 ## Autolayout
 |Question|Answer|
 |:----------|:-----:|
-|오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)|-|
+|오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)|[<kbd>Done</kbd>](./AutoLayout/codebase-3way.md)|
 |||
 |스토리보드를 이용했을때의 장단점을 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/pros&cons-of-storyboard.md)|
 |||
