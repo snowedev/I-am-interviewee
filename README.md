@@ -1,6 +1,9 @@
 # iOS 기술 면접을 준비하는 레포
 > [👨🏻‍💻👩🏻‍💻iOS 면접에 나올 질문들 총 정리](https://github.com/JeaSungLEE/iOSInterviewquestions)에 기재된 리스트를 토대로 공부하는 Repository입니다.
 
+<img width = 100% src=https://user-images.githubusercontent.com/42789819/131531121-4b35d4f4-1221-4ac8-8ead-c0094e901294.jpg>
+
+
 <br>
 
 ## **Index**
@@ -97,7 +100,7 @@
 |||
 |Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/left,leading.md)|
 |||
-|hugging, resistance에 대해서 설명하시오.|-|
+|hugging, resistance에 대해서 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/hugging,resistance.md)|
 |||
 |Intrinsic Size에 대해서 설명하시오.|-|
 
