@@ -102,7 +102,7 @@
 |||
 |hugging, resistance에 대해서 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/hugging,resistance.md)|
 |||
-|Intrinsic Size에 대해서 설명하시오.|-|
+|Intrinsic Size에 대해서 설명하시오.|[<kbd>Done</kbd>](./AutoLayout/IntrinsicContentSize.md)|
 
 
 <br>
