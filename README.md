@@ -68,7 +68,7 @@
 |||
 |UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.|[<kbd>Done</kbd>](./iOS/Layer.md)|
 |||
-|UIWindow 객체의 역할은 무엇인가?|-|
+|UIWindow 객체의 역할은 무엇인가?|[<kbd>Done</kbd>](./iOS/UIWindow.md)|
 |||
 |UINavigationController 의 역할이 무엇인지 설명하시오.|-|
 |||
