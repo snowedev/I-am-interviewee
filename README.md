@@ -16,6 +16,7 @@
     * [Functional Programming](#functional-programming)
 * [**Optional**](#optional)
     * [Advanced](#advanced)
+    * [Combine](#combine)
     * [Rx](#rx)
 
 
@@ -85,7 +86,20 @@
 |Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?|-|
 |||
 |App thinning에 대해서 설명하시오.|-|
-
+|||
+|setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.|-|
+|||
+|NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.|-|
+|||
+|URLSession에 대해서 설명하시오.|-|
+|||
+|prepareForReuse에 대해서 설명하시오.|-|
+|||
+|다크모드를 지원하는 방법에 대해 설명하시오.|-|
+|||
+|ViewController의 생명주기를 설명하시오.|-|
+|||
+|TableView와 CollectionView의 차이점을 설명하시오.|-|
 
 <br>
 
@@ -149,6 +163,12 @@
 |defer란 무엇인지 설명하시오.|-|
 |||
 |defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.|-|
+|||
+|property wrapper에 대해서 설명하시오.|-|
+|||
+|Result타입에 대해 설명하시오.|-|
+|||
+|Codable에 대하여 설명하시오.|-|
 
 
 <br>
@@ -204,6 +224,9 @@
 
 |Question|Answer|
 |:----------|:-----:|
+|Protocol에서는 왜 var만 되는지 설명하시요.|-|
+|sync 방식과 async 방식으로 URL Connection을 처리할 경우의 장단점을 비교하시오.|-|
+|method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.|-|
 |NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.|-|
 |Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.|-|
 |NSObject부터 UIButton 까지 상속 과정의 계층과 역할을 설명하시오.|-|
@@ -211,14 +234,20 @@
 |Push Notification 방식에 대해 설명하시오.|-|
 |Foundation 과 Core Foundation 프레임워크의 차이점을 설명하시오.|-|
 |NSURLConnection 에서 사용하는 Delegate 메서드들에 대해 설명하시오.|-|
-|sync 방식과 async 방식으로 URL Connection을 처리할 경우의 장단점을 비교하시오.|-|
 |plist 파일 구조와 plist 파일에 저장된 데이터를 다루기 적합한 클래스를 설명하시오.|-|
 |Core Data와 Sqlite 같은 데이터 베이스의 차이점을 설명하시오.|-|
 |JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.|-|
-|XML Parser를 사용하려면 어떻게 해야 하는지 설명하시오.|-|
 |웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.|-|
-|DOM 방식과 SAX 방식 XML Parser의 차이점을 설명하고 iOS XML Parser는 어떤 방식인지 설명하시오.|-|
-|In-App Purchase Product type 을 설명하시오.|-|
+
+<br>
+
+## Combine
+|Question|Answer|
+|:----------|:-----:|
+|PassthroughSubject에 대해서 설명하시오|-|
+|@Published에 대해서 설명하시오|-|
+|Anycancleable에 대해서 설명하시오|-|
+|sink에 대해서 설명하시오|-|
 
 <br>
 
@@ -227,3 +256,4 @@
 |:----------|:-----:|
 |Reactive Programming이 무엇인지 설명하시오.|-|
 |RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.|-|
+|Subject와 drive의 차이를 설명하시오.|-|
