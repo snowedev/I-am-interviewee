@@ -65,7 +65,7 @@
 |||
 |App Bundle의 구조와 역할에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/AppBundle.md)|
 |||
-|View 객체에 대해 설명하시오.|-|
+|View 객체에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/View.md)|
 |||
 |UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.|[<kbd>Done</kbd>](./iOS/Layer.md)|
 |||
@@ -97,9 +97,7 @@
 |||
 |다크모드를 지원하는 방법에 대해 설명하시오.|-|
 |||
-|ViewController의 생명주기를 설명하시오.|-|
-|||
-|TableView와 CollectionView의 차이점을 설명하시오.|-|
+|ViewController의 생명주기를 설명하시오.|[<kbd>Done</kbd>](https://snowedev.github.io/2021/02/14/iOS/ios12/)|
 
 <br>
 
