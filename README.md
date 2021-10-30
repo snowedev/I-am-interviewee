@@ -71,7 +71,7 @@
 |||
 |UIWindow 객체의 역할은 무엇인가?|[<kbd>Done</kbd>](./iOS/UIWindow.md)|
 |||
-|UINavigationController 의 역할이 무엇인지 설명하시오.|-|
+|UINavigationController 의 역할이 무엇인지 설명하시오.|[<kbd>Done</kbd>](./iOS/UINavigationController.md)|
 |||
 |모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?|-|
 |||
