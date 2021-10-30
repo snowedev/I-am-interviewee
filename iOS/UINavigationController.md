@@ -5,6 +5,9 @@
 
 ## 답안
 ***이하 직역***
+* [Overview](#overview)
+* [Navigation Controller Views](#navigation-controller-views)
+* [Updating the Navigation Bar](#updating-the-navigation-bar)
 
 ## Declaration
 ```swift
@@ -21,11 +24,11 @@
 
 > Figure 1 A sample navigation interface
 
-뷰 컨트롤러 내부에 어떤 요소를 선택하여 새로운 뷰 컨트롤러를 띄울 수 있는데 이 때, 이전의 뷰 컨트롤러 위로 애니메이션과 함께 올라오게 된다. 마찬가지로 네비게이션 바에 위치한 뒤로가기 동작을 취할 때에는 현재 뷰 컨트롤러를 스택에서 지움으로써 밑에 가려져 있던 이전의 뷰 컨트롤러가 등장하게 된다.
+뷰 컨트롤러 내부에 어떤 요소를 선택하여 새로운 뷰 컨트롤러를 띄울 수 있다. 이 때, 새로운 뷰 컨트롤러는 이전의 뷰 컨트롤러 위로 애니메이션과 함께 올라오게 된다. 마찬가지로 네비게이션 바에 위치한 뒤로가기 동작을 취할 때에는 현재 뷰 컨트롤러를 스택에서 지움으로써 밑에 가려져 있던 이전의 뷰 컨트롤러가 등장하게 된다.
 
-네비게이션 컨트롤러 객체는 `Navigation Stack`  으로 알려진 정렬된 배열을 사용하여 이들의 자식 뷰 컨트롤러들을 관리한다. 배열의 가장 처음에 있는 뷰 컨트롤러는 `root view controller`이며 스택의 가장 밑을 의미한다.
+네비게이션 컨트롤러 객체는 `Navigation Stack`  이라고 알려진 **정렬된 배열**을 사용하여 이들의 자식 뷰 컨트롤러들을 관리한다. 배열의 가장 처음에 있는 뷰 컨트롤러는 `root view controller`라고 부르며, 이는 스택 기준으로 가장 밑에 위치해있다.
 
-**segue** 혹은 **UINavigationController 클래스**의 메서드를 사용해서 뷰 컨트롤러들을 추가하거나 지울 수 있다. 또한 사용자는 **뒤로가기 버튼** 혹은 **left-edge swipe gesture**를 통해 가장 최상위 뷰 컨트롤러를 지울 수 있다.
+**segue** 혹은 **UINavigationController 클래스**의 메서드를 사용해서 뷰 컨트롤러들을 추가하거나 지울 수 있다. 또한 사용자는 **뒤로가기 버튼** 혹은 **left-edge swipe gesture**를 통해 가장 최상위 뷰 컨트롤러를 지울 수 있다(이전 뷰로 돌아가기).
 
 네비게이션 컨트롤러는 인터페이스의 최상단에 위치한 `navigation bar`와 인터페이스 최하단에 위치한 옵셔널(`?`) `toolbar`를 가진다.  
 
