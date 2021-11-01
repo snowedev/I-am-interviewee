@@ -73,7 +73,7 @@
 |||
 |UINavigationController 의 역할이 무엇인지 설명하시오.|[<kbd>Done</kbd>](./iOS/UINavigationController.md)|
 |||
-|모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?|-|
+|모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?|[<kbd>Done</kbd>](./iOS/UIViewController.md)|
 |||
 |앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?|-|
 |||
@@ -226,7 +226,7 @@
 |sync 방식과 async 방식으로 URL Connection을 처리할 경우의 장단점을 비교하시오.|-|
 |method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.|-|
 |NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.|-|
-|Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.|-|
+|Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.|[<kbd>Done</kbd>](./Advanced/Responder-Chain.md)|
 |NSObject부터 UIButton 까지 상속 과정의 계층과 역할을 설명하시오.|-|
 |shallow copy와 deep copy의 차이점을 설명하시오.|-|
 |Push Notification 방식에 대해 설명하시오.|-|
