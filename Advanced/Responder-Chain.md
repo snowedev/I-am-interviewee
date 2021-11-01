@@ -49,11 +49,9 @@ UIKit `Responder`들은 이벤트 처리 작업 외에, 처리 되지 않은 이
 
 일반적인 이벤트는 responder chain 내의 first responder 혹은 터치된 뷰에서 시작하여 뷰 계층을 따라 window 객체를 거쳐 app 객체에 도달할 때까지 이동합니다. UIKit은 일정한 규칙을 사용하여 responder chain을 동적으로 관리하는데, 이 규칙에 의해 어떤 객체가 다음 순서로 이벤트를 받을지가 결정됩니다. 예를 들어, 뷰는 자신의 슈퍼뷰에게도 이벤트를 forwarding하고, 뷰 계층의 루트 뷰는 자신의 뷰 컨트롤러에게로 이벤트를 포워딩합니다.
 
-<img width=38% src="https://
-user-images.githubusercontent.com/42789819/139694363-13827020-e49a-438b-a82d-dc135dd4b6b5.png">
-<img width=61% src="https://user-images.githubusercontent.com/42789819/139696784-7d7b189a-6f4a-4698-be30-bcdcd2288926.png">
-> Responder chains in an app
+<img width=38% src="https://user-images.githubusercontent.com/42789819/139702055-7f34b0e6-73a6-4ace-8ef5-c7b27e06dd94.png"> <img width=61% src="https://user-images.githubusercontent.com/42789819/139696784-7d7b189a-6f4a-4698-be30-bcdcd2288926.png">
 
+> Responder chains in an app
 1. Text field가 이벤트를 핸들링하지 않으면, UIKit은 text field의 부모인 UIView 객체에게로 이벤트를 보내고, 이어서 윈도우의 루트 뷰에게로 보냅니다.
 2. 루트 뷰에서, Responder chain은 이벤트를 윈도우로 보내기 전에 방향을 바꾸어 루트 뷰를 소유하고 있는 뷰 컨트롤러에게로 보냅니다.
 3. 만약 윈도우가 이벤트를 처리하지 못하면, UIKit은 이벤트를 UIApplication 객체에게로 보냅니다. 그리고 app delegate가 UIResponder의 인스턴스이고 responder chain의 일부가 아니라면 이벤트를 app delegate에게로 보냅니다.

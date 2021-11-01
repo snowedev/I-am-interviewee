@@ -6,7 +6,7 @@
 * [iOS의 Responder와 Responder Chain 이해하기](https://seizze.github.io/2019/11/26/iOS의-Responder와-Responder-Chain-이해하기.html)
 
 ## 함께보면 좋은 답변
-* [Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.](./Advanced/Responder-Chain.md)
+* [Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.](../Advanced/Responder-Chain.md)
 
 ## 답변
 
@@ -31,7 +31,7 @@ UIViewController 클래스는 모든 view controller들의 공통적으로 분�
 * interface 전반적인 레이아웃을 관리하고 view를 리사이징한다.
 * 앱 내의 다른 객체들(다른 view controller 등)과 상호작용을 한다.
 
-view controller는 뷰들과 단단히 묶여있어서 뷰의 계층 구조 안에서 event의 처리를 참여하고 관리합니다. 특히, view controller는 `UIResponder 객체`로서 view controller의 root view와 해당 뷰의 super view(일반적으로 다른 view controller에 속하는) 사이의 [`Responder Chain`](./Advanced/Responder-Chain.md)에 삽입됩니다. 만약 view controller의 뷰들 중 그 누구도 event를 처리하지 않는다면, view controller는 이벤트를 직접 처리하거나 super view에 전달할 수 있습니다.
+view controller는 뷰들과 단단히 묶여있어서 뷰의 계층 구조 안에서 event의 처리를 참여하고 관리합니다. 특히, view controller는 `UIResponder 객체`로서 view controller의 root view와 해당 뷰의 super view(일반적으로 다른 view controller에 속하는) 사이의 [`Responder Chain`](../Advanced/Responder-Chain.md)에 삽입됩니다. 만약 view controller의 뷰들 중 그 누구도 event를 처리하지 않는다면, view controller는 이벤트를 직접 처리하거나 super view에 전달할 수 있습니다.
 
 ---
 ### **더 알아보기 `UIResponder`**
@@ -62,4 +62,4 @@ open class UIResponder : NSObject, UIResponderStandardEditActions {
 이와 비슷하게 우리도 커스텀 input view를 만들고 다른 responder가 활성화 될 때 커스텀된 input view를 띄울 수 있습니다. 커스텀 input view를 responder에 연결하려면, 해당 뷰를 responder의 inputView 프로퍼티에 할당하세요.
 
 ### +
-[Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.](./Advanced/Responder-Chain.md)
+[Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.](../Advanced/Responder-Chain.md)
