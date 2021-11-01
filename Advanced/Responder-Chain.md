@@ -7,7 +7,7 @@
 * [iOS의 Responder와 Responder Chain 이해하기](https://seizze.github.io/2019/11/26/iOS의-Responder와-Responder-Chain-이해하기.html)
 
 ## 함께보면 좋은 답변
-* [모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?](./iOS/UIViewController.md)
+* [모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?](../iOS/UIViewController.md)
 
 ## 답변
 ## UIResponder
