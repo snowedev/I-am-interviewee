@@ -75,7 +75,7 @@
 |||
 |모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?|[<kbd>Done</kbd>](./iOS/UIViewController.md)|
 |||
-|앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?|-|
+|앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?|[<kbd>Done</kbd>](./iOS/UIApplicationMain.md)|
 |||
 |UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?|-|
 |||

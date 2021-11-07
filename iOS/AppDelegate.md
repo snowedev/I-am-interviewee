@@ -85,7 +85,7 @@ func application (_ : didDiscardSceneSessions :)
 <br>
 
 <details>
-<summary> "SceneDelegate의 메서드들" - Real Answer</summary>
+<summary> "SceneDelegate의 메서드들"</summary>
 <div markdown="1">   
 
 
