@@ -35,9 +35,7 @@
 |||
 |앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?|[<kbd>Done</kbd>](./iOS/foreground,background.md)|
 |||
-|상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate 메서드들을 설명하시오.|[<kbd>Done</kbd>](./iOS/AppDelegate.md)|
-|||
-|Scene delegate에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/SceneDelegate.md)|
+|AppDelegate와 SceneDelegate에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/AppDelegate,SceneDelegate.md)|
 |||
 |App LifeCycle과 동작 시나리오에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/App-LifeCycle.md)|
 |||
