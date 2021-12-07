@@ -8,12 +8,6 @@
 * [iOS13에서-분할된-AppDelegate와-추가된SceneDelegate이해하기](https://huniroom.tistory.com/entry/)
 * [AppDelegate와 SceneDelegate-lena](https://velog.io/@dev-lena/iOS-AppDelegate와-SceneDelegate)
 
-## 필요한 사전 지식
-* 객체 (Object): 클래스의 인스턴스.
-* 인스턴스 (Instance): 클래스(즉, 객체)나 구조체, 열거형의 구조로 컴퓨터 저장공간에서 할당된 실체. 의미상으로 객체와 비슷
-* 클래스 (Class): 특정한 타입의 객체에 공통되는 동작과 속성을 묘사한 코드 조각으로 본질적으로 객체의 청사진을 제공.
-
-
 ## 함께 보면 좋은 답변, 글
 * [App Life Cycle?](./AppLifeCycle.md)
 * [UIScene, UIWindowScene, UISceneSession 이란 무엇인가](https://eunjin3786.tistory.com/164)
@@ -80,19 +74,21 @@ iOS13부터 SceneDelegate의 등장으로 AppDelegate는 아래 5가지 정도�
     </br>
 
     ```swift
-    func application (_ : didDiscardSceneSessions :)
+    func application (_ : didDiscardSceneSessions)
     ```
     * 멀티 태스킹 창(App Switcher)에서 한개 이상의 scene을 종료시켰을 때 또는 프로그래밍 방식으로 앱 제거시 호출된다.  
 
     </br>
+
     ```swift
     func applicationWillTerminate(_ :)
     ```
-
     * 앱이 사용자에 의해 종료될 때 호출된다.
     * iOS 3.x 이전이거나 백그라운드 작업이 있는 앱의 경우 그 작업을 위해 호출되지 않음.
         > 이때는 `willTerminateNotification`를 사용하여 종료를 구현할 수 있다.
     * 시스템이 판단했을 때 종료가 필요할 경우 호출될 수 있다.
+
+</br>
 
 * `SceneDelegate`
 
