@@ -142,7 +142,7 @@
 |||
 |프로토콜이란 무엇인지 설명하시오.|[<kbd>Done</kbd>](./Swift/Protocol.md)|
 |||
-|Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.|-|
+|Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.|[<kbd>Done</kbd>](./Swift/Hashable,Equatable.md)|
 |||
 |mutating 키워드에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/mutating.md)|
 |||
