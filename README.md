@@ -87,13 +87,13 @@
 |||
 |NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.|-|
 |||
-|URLSession에 대해서 설명하시오.|-|
+|URLSession에 대해서 설명하시오.|[<kbd>Done</kbd>](https://snowee.tistory.com/55)|
 |||
 |prepareForReuse에 대해서 설명하시오.|-|
 |||
 |다크모드를 지원하는 방법에 대해 설명하시오.|-|
 |||
-|ViewController의 생명주기를 설명하시오.|[<kbd>Done</kbd>](https://snowedev.github.io/2021/02/14/iOS/ios12/)|
+|ViewController의 생명주기를 설명하시오.|[<kbd>Done</kbd>](https://snowee.tistory.com/29)|
 
 <br>
 
