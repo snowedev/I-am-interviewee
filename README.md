@@ -89,9 +89,7 @@
 |||
 |URLSession에 대해서 설명하시오.|[<kbd>Done</kbd>](https://snowee.tistory.com/55)|
 |||
-|prepareForReuse에 대해서 설명하시오.|-|
-|||
-|다크모드를 지원하는 방법에 대해 설명하시오.|-|
+|prepareForReuse에 대해서 설명하시오.|[<kbd>Done</kbd>](./iOS/prepareForReuse.md)|
 |||
 |ViewController의 생명주기를 설명하시오.|[<kbd>Done</kbd>](https://snowee.tistory.com/29)|
 
