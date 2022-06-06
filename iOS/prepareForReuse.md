@@ -4,7 +4,7 @@
 
 #### prepareForReuse와 cell 재사용 문제
 
-우리가 컬렉션 뷰, 테이블 뷰를 사용 할 때 셀을 재사용하는데, 그때 이전 cell의 내용이 중복되어 표시되었다가 제대로 된 내용이 반영되는 등의 문제가 발생한 적이 있을것이다.  
+우리가 컬렉션 뷰, 테이블 뷰를 사용 할 때 셀을 재사용하는데, 그때 cell에 표시되어야 하는 내용이 잘못되어 나오거나 버벅이는 듯한 현상을 보이는 문제가 발생한 적이 있을것이다.  
 이 현상을 이해하기 위해서는 cell이 어떻게 재사용되는지 알고 있어야 한다. 그리고 그 현상을 해결할 수 있는 시점이 `prepareForReuse` 호출 시점이다. 
 `prepareForReuse` 자체의 정의는 간단하다. 말 그대로 재사용에 대한 준비를 하는 역할을 수행한다.  
 > 왜 재사용을 하는지에 대해서는 메모리 효율성을 중점으로 생각해보면 좋을것이다.
@@ -16,7 +16,7 @@ cell을 재사용을 위해 우리는 아래와 같이 tableView, collectionView
 
 ```swift
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: radioButton, for: indexPath) as? TestCell else { 
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: TestCell.identifier, for: indexPath) as? TestCell else { 
             fatalError("Cell Not Found")
         }
 
