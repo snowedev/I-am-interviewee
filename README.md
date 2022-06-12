@@ -83,7 +83,7 @@
 |||
 |App thinning에 대해서 설명하시오.|-|
 |||
-|setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.|-|
+|setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.|[<kbd>Done</kbd>](./iOS/setNeedsLayout,setNeedsDisplay.md)|
 |||
 |NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.|-|
 |||
