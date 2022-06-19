@@ -118,7 +118,7 @@
 |:----------|:-----:|
 |Optional 이란 무엇인지 설명하시오.|[<kbd>Done</kbd>](./Swift/Optional.md)|
 |||
-|Fast Enumeration 이란 무엇인지 설명하시오. |-|
+|Fast Enumeration 이란 무엇인지 설명하시오. |[<kbd>Done</kbd>](./Swift/FastEnumeration.md)|
 |||
 |Class 와 Struct의 차이점에 대해 설명하시오.|[<kbd>Done</kbd>](./Swift/ClassStruct.md)|
 |||
