@@ -152,7 +152,7 @@
 |||
 |접근 제어자의 종류엔 어떤게 있는지 설명하시오|[<kbd>Done</kbd>](./Swift/AccessControl.md)|
 |||
-|defer란 무엇인지 설명하시오.|-|
+|defer란 무엇인지 설명하시오.|[<kbd>Done</kbd>](./Swift/defer.md)|
 |||
 |defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.|-|
 |||
